@@ -1,0 +1,42 @@
+
+1. Zadatak
+Napisati metodu stampajVrednostZa10Vecu u kojoj se stampa prosledjena vrednost za 10 veca.Iz main-a pozvati izvrsenje metode za razlicite vrednosti.
+
+
+2. Zadatak
+Napisati funkciju koja za dva jednocifrena broja koja su ulazni parametri funkcije vraca novu vrednost koja se formira kao na primeru:
+ako je prvi broj =2, a drugi =3 vraca novu vrednost 23.
+ako je prvi broj =6, a drugi =2 vraca novu vrednost 62.
+
+
+3. Zadatak
+Napisati metodu koja stampa podatke o korisniku u formatu:
+JMBG: [jmbg]
+Ime: [ime]
+Prezime: [prezime]
+God. rodjenja: [god]
+Aktivan: [true/false]
+Metoda prima jmbg, ime, prezime, god rodjenja i da li je aktivan kao parametre metode.
+
+Metoda prima dva parametra N i karakter za stampu. Metoda stampa N karaktera.
+Ako se za N prosledi 5 i za karakter prosledi npr kosa crta (/) stampa se=>
+/ / / / /
+
+
+4. Zadatak
+(Za vezbanje )Napisati funkciju koja za pronalazi koliko ima celih brojeve izmedju brojeva M i N.
+
+Primer izvrsenja:
+izbroji(5, 10) ima za rezultat 4. Kako? 5 6 7 8 9 10
+izbroji(-5, 1) ima za rezultlat 5 . Kako? -5 -4 -3 -2 -1 0 1
+
+Napomena: Resiti bez koriscenja petlji.
+
+
+
+5. Zadatak
+(Za vezbanje)Napisati funkciju koja za tri prosledjena broja vraca najmanji od ta 3. U glavnom programu iskoristi funkciju i ispisti odgovarajucu poruku.
+
+
+
+
