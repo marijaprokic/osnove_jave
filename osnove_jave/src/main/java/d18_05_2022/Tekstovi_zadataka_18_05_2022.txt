@@ -1,0 +1,20 @@
+1. Zadatak
+Napisati klasu Proizvod koja ima atribute
+naziv proizvoda (String)
+cenu proizvoda (double)
+težinu proizvoda u gramima. (double)
+	i metode:
+stampaj - stampa podatke proizvoda u formatu {{naziv}}, {{cena}}, {{tezina}}
+
+
+U glavnom programu kreirati minimum 2 proizvoda i za svaki od njih pozvati metodu za stampu.
+
+2. Zadatak
+Kreirati klasu SmartAirConditioning koja ima:
+atribut za marku klime (npr: Samsung, Galanz, Gree, …)
+atribut za izabranu temperaturu (minimum je 16, maksimum 35)
+atribut za mod (hladi/greje)
+metodu za stampu - stampa u formatu: Proizvoljno :)
+
+
+U glavnom programu kreirati minimum 2 objekta klase SmartAirConditioning i za svaki od njih pozvati metodu za stampu
