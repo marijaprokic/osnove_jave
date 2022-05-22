@@ -1,0 +1,64 @@
+Napisati klasu Proizvod koja ima atribute
+naziv proizvoda (String)
+cenu proizvoda (double)
+težinu proizvoda u gramima. (double)
+	i metode:
+stampaj - stampa podatke proizvoda u formatu {{naziv}}, {{cena}}, {{tezina}}
+povecajCenu - koja kao parametar funkcije prima vrednost povećanje za koju treba povećati cenu. Ova funkcija treba da menja atribut cena i ova funkcija nema povratnu vrednost.
+vratiCenuSaPopustom - koja kao ulazni parametar funkcije dobija popust, a povratnu vrednost je cena proizvoda kada se uračuna popust.Ova funkcije ne menja atribut cena. Smatrati da je parametar popust u opsegu od 0 do 100.
+racunajPostarinu - funkcije vraća koliko bi bila postarina da se proizvod šalje preko kurirske sluzbe. Funkcija je bez ulaznih parametara, a cena postarine se računa u zavisnosti od tezine:
+za tezinu do 100g, postarina iznosi 200din
+za tezinu od 101g do 500g, postarina iznosi 400din
+za tezinu preko 500g, postarina iznosi 1000din
+
+U glavnom programu kreirati minimum 2 proizvoda i za svaki od njih pozvati svaku od definisanih funkcija.
+
+
+(ZA VEZBANJE)Kreirati klasu SmartAirConditioning koja ima:
+atribut za marku klime (npr: Samsung, Galanz, Gree, …)
+atribut za potrosnju elektricne energije dok hladi (npr 1kW/h)
+atribut za potrosnju elektricne energije dok greje (npr 2kW/h)
+atribut za izabranu temperaturu (minimum je 16, maksimum 35)
+atribut za mod (hladi/greje)
+metodu za stampu - stampa u formatu
+marka - mod - termperatura
+metodu koja racuna mesecnu potrosnju u kW/h, po formuli:
+30 * 15 * potrosnja po satu ( zavisi da li greje ili hladi)
+metodu koja racuna koliko klima novca potrosi za mesec dana
+Prvih 350 kW/h su u zelenoj zoni i 1 kW/h kosta 6din
+Sve ostalo se racuna kao u plavoj zoni, gde 1kW/h kosta 9 dinara
+Metoda vraca ukupnu cenu za taj mesec
+
+U glavnom programu krairati objekat klase SmartAirConditioning i testirati sve metode.
+
+
+
+
+
+
+
+3.(ZA VEZBANJE) Kreirati klasu FacebookPost koja ima:
+   Od atributa:
+ime i prezime korisnika koji je objavio post
+ime i prezime korisnika na kom je profilu objavljen post (posto na fejsbuku mozete da postavite objavu na tudjem profilu)
+tekst objave
+broj lajkova
+broj deljenja
+  Od metoda:
+like(), koja povecava broj lajkova za 1.
+dislike(), koja smanjuje broj lajkova za 1 (broj lajkova ne moze da bude manji od nule)
+share(), koja povecava broj deljenja za 1
+print(), koja stampa objavu u formatu:
+(ime i prezime osobe koja je objavila) >>> (ime i prezime na cijem profilu)
+(tekst objave)
+Likes (broj lajkova) | Shares (broj deljenja)
+
+U glavnoj klasi napraviti minimum dva FacebookPost-a i nad svakim pozvati svaku funkciju.
+
+
+Primer stampanja:
+Milan Jovanovic >>> Pera Peric
+Ovo je tekst objave
+Likes 3 | Shares 1
+
+
