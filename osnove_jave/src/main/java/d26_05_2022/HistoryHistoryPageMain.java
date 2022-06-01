@@ -16,6 +16,8 @@ public class HistoryHistoryPageMain {
         istorija.sacuvajKredencijale("imdb", "Marija", "bzvz");
         istorija.obrisiKolaciceSat(13, 10);
         istorija.pogledajIstoriju();
+        istorija.obrisiIstoriju();
+        istorija.pogledajIstoriju();
 
 
     }
