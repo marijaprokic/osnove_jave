@@ -40,7 +40,7 @@ public class History {
     }
 
     public void obrisiIstoriju() {
-        for (int i = 0; i < niz.size(); i++) {
+        for (int i = niz.size()-1; i > 0; i--) {
             niz.remove(i);
         }
     }
