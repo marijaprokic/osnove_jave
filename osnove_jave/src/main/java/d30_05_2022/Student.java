@@ -43,11 +43,15 @@ public class Student {
     }
 
     public double racunajProsek () {
-        int suma = 0;
+        double suma = 0;
+        int brojac = 0;
         for (int i = 0; i < nizIspita.size(); i++) {
-          suma = suma + nizIspita.get(i).getOcena();
+            if (nizIspita.get(i).getOcena() >5) {
+                suma = suma + nizIspita.get(i).getOcena();
+                brojac = brojac + 1;
+            }
         }
-        return suma/(nizIspita.size());
+        return suma/brojac;
     }
 
     public void stampaj () {
